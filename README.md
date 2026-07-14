@@ -1,36 +1,22 @@
-# Stride Kenya — GitHub Pages Shoe Store
+# Stride Kenya Premium Website
 
-A modern responsive static storefront built with semantic HTML, CSS and vanilla JavaScript.
+## Preview locally
+Open `index.html` in a browser. For the installable PWA and service worker, use a local web server such as VS Code Live Server.
 
-## Included
-- Responsive homepage and mobile navigation
-- Real shoe photography from Unsplash
-- Search, category filters and price/name sorting
-- Persistent demo cart using `localStorage`
-- Quantity controls, totals and cart drawer
-- Kenyan shilling pricing
-- Contact and newsletter forms
-- Light/dark theme
-- Accessibility features: skip link, keyboard focus, reduced-motion support, labels and ARIA
-- Lazy-loaded product images and responsive layout
+## Publish with GitHub Pages
+1. Create a new public GitHub repository, for example `stride-kenya`.
+2. Upload `index.html`, `manifest.webmanifest`, `service-worker.js`, and this README to the repository root.
+3. Commit the files to the `main` branch.
+4. Open **Settings → Pages**.
+5. Under **Build and deployment**, choose **Deploy from a branch**.
+6. Select **main** and **/(root)**, then save.
+7. Wait briefly for GitHub to provide the public address.
 
-## Publish on GitHub Pages
-1. Extract this ZIP.
-2. Create a new GitHub repository, for example `stride-kenya`.
-3. Upload `index.html`, `styles.css`, `script.js` and `README.md` to the repository root.
-4. Commit the files.
-5. Go to **Settings → Pages**.
-6. Under **Build and deployment**, choose **Deploy from a branch**.
-7. Select **main** and **/(root)**, then save.
-8. GitHub will show the live URL after deployment.
+## Important customisation
+- Replace `Stride Kenya`, contact details, testimonials, product names, prices, and policies with your real business information.
+- The product photographs are loaded from Unsplash. Replace them with your own photographs before commercial launch for consistent branding and dependable image availability.
+- Connect the contact and newsletter forms to Formspree, Basin, Netlify Forms, or your backend.
+- GitHub Pages is static and cannot securely process payments itself. Use a hosted payment checkout or a secure backend/serverless function for M-Pesa, Pesapal, Flutterwave, Stripe, or PayPal. Never put private API keys in the website code.
 
-## Before taking real orders
-- Replace the demo business details.
-- Replace sample product names, prices and images in `script.js`.
-- Connect checkout to M-Pesa, Pesapal, Flutterwave, Stripe or another provider.
-- Connect forms to Formspree, Netlify Forms or a backend.
-- Add privacy, returns, delivery and terms pages.
-- Use your own licensed product photography for the final commercial catalogue.
-
-## Image note
-The current demonstration uses remotely hosted Unsplash images. The website therefore needs internet access to display them. For a commercial launch, download licensed images into an `assets/images` folder and update the image paths.
+## Included features
+Responsive design, mobile navigation, dark mode, product search, category filtering, sorting, wishlist, persistent cart, quantity controls, Kenyan pricing, contact form, newsletter form, PWA manifest, basic offline shell, SEO metadata, accessibility support, reduced-motion support, and GitHub Pages compatibility.
