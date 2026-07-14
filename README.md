@@ -1,36 +1,36 @@
-# Stride Footwear Website
+# Stride Kenya — GitHub Pages Shoe Store
 
-A responsive static shoe-company website built with HTML, CSS, and JavaScript. It is ready for GitHub Pages.
+A modern responsive static storefront built with semantic HTML, CSS and vanilla JavaScript.
 
-## Features
-
-- Responsive mobile and desktop layout
-- Product catalogue
-- Category filters and product search
-- Shopping-cart demo using localStorage
-- Contact form interface
-- Newsletter form
-- GitHub Pages-compatible static files
+## Included
+- Responsive homepage and mobile navigation
+- Real shoe photography from Unsplash
+- Search, category filters and price/name sorting
+- Persistent demo cart using `localStorage`
+- Quantity controls, totals and cart drawer
+- Kenyan shilling pricing
+- Contact and newsletter forms
+- Light/dark theme
+- Accessibility features: skip link, keyboard focus, reduced-motion support, labels and ARIA
+- Lazy-loaded product images and responsive layout
 
 ## Publish on GitHub Pages
+1. Extract this ZIP.
+2. Create a new GitHub repository, for example `stride-kenya`.
+3. Upload `index.html`, `styles.css`, `script.js` and `README.md` to the repository root.
+4. Commit the files.
+5. Go to **Settings → Pages**.
+6. Under **Build and deployment**, choose **Deploy from a branch**.
+7. Select **main** and **/(root)**, then save.
+8. GitHub will show the live URL after deployment.
 
-1. Sign in to GitHub.
-2. Create a new repository, for example `stride-footwear`.
-3. Upload all files in this folder to the repository root.
-4. Open **Settings → Pages**.
-5. Under **Build and deployment**, select **Deploy from a branch**.
-6. Select the `main` branch and `/root`, then click **Save**.
-7. GitHub will display the live website address after deployment.
+## Before taking real orders
+- Replace the demo business details.
+- Replace sample product names, prices and images in `script.js`.
+- Connect checkout to M-Pesa, Pesapal, Flutterwave, Stripe or another provider.
+- Connect forms to Formspree, Netlify Forms or a backend.
+- Add privacy, returns, delivery and terms pages.
+- Use your own licensed product photography for the final commercial catalogue.
 
-## Customize
-
-- Change the company name and text in `index.html`.
-- Change products and prices in the `products` array in `script.js`.
-- Change colours in the `:root` section of `styles.css`.
-- Replace the emoji shoe illustrations with your product images.
-- Connect the contact form to Formspree, Netlify Forms, or a backend.
-- Connect checkout to M-Pesa, Stripe, PayPal, or another payment service.
-
-## Important
-
-This is a front-end demonstration. The cart and checkout do not process real payments.
+## Image note
+The current demonstration uses remotely hosted Unsplash images. The website therefore needs internet access to display them. For a commercial launch, download licensed images into an `assets/images` folder and update the image paths.
